@@ -1,0 +1,87 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'kdg_Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/kdg_Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GapyeongHanseokbong-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongHanseokbong-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    background-image: url(/l_moonhwabitdam/img/bg.png);
+}
+
+.link {
+    color: #565d6f;
+    background-color: #B8D1E3; 
+}
+.link:hover {
+    background-color: #404C6A; color: #fff;
+}
+header {
+    background-color: #B8D1E3;
+    color: #fff;
+}
+header ul.nav li:nth-child(3) {
+    color: #404C6A; font-weight: bold;
+}
+header ul.nav li:hover {
+    color: #404C6A;
+}
+section.intro h2 {
+    font-family: 'kdg_Medium'; color: #8D9DAF;
+}
+
+.logo:after {
+    content: "";
+    background: url("/l_moonhwabitdam/img/web_logo.png") no-repeat;
+    left: 50%;
+    margin-left: -6%;
+    position: absolute;
+    top: 30%;
+    width: 138px;
+    padding-top: 4.8%;
+}
+section.use ul.color li:nth-child(1)>ul.sub>li {
+    width: 80px; height: 80px;
+}
+section.use ul.color li:nth-child(1)>ul.sub>li {background-image: url(/l_moonhwabitdam/img/color_1.png);}
+section.use ul.color li:nth-child(2)>ul.sub>li {background-image: url(/l_moonhwabitdam/img/color_2.png);}
+section.use ul.color li:nth-child(3)>ul.sub>li {background-image: url(/l_moonhwabitdam/img/color_3.png);}
+section.use ul.color li:nth-child(4)>ul.sub>li {background-image: url(/l_moonhwabitdam/img/color_4.png);}
+
+section.use ul.typo_icon {
+    width: 597px; height: 278px;
+}
+section.use ul.typo_icon li.typo {
+    width: 250px; height: 278px;
+}
+section.use ul.typo_icon li.typo ul.typo {
+    height: 100px;
+}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(1) {font-family: 'kdg_Medium';}
+section.use ul.typo_icon li.typo ul.typo li:nth-child(2) {font-family: 'GapyeongHanseokbong-Bold';}
+
+section.use ul.typo_icon li.icon .icon {
+    width: 186px; height: 189px;
+}
+
+section.use .lo_go .logo_img {
+    width: 388px; height: 291px;
+}
+
+section.main .go {
+    background-color: #B8D1E3;
+    color: #565d6f;
+}
+section.main .go:hover {
+    background-color: #404C6A;
+}
+
+footer {
+    background-color: #B8D1E3;
+}
